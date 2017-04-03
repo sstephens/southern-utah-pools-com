@@ -1,64 +1,64 @@
 @font-face{ 
 	font-family: 'pnbold';
-	src: url('pnbold.eot');
-	src: url('pnbold.eot?#iefix') format('embedded-opentype'),
-	     url('pnbold.woff') format('woff'),
-	     url('pnbold.ttf') format('truetype'),
-	     url('pnbold.svg#webfont') format('svg');
+	src: url('/fonts/pnbold.eot');
+	src: url('/fonts/pnbold.eot?#iefix') format('embedded-opentype'),
+	     url('/fonst/pnbold.woff') format('woff'),
+	     url('/fonts/pnbold.ttf') format('truetype'),
+	     url('/fonts/pnbold.svg#webfont') format('svg');
 }
 
 @font-face{ 
 	font-family: 'pnthin';
-	src: url('pnthin.eot');
-	src: url('pnthin.eot?#iefix') format('embedded-opentype'),
-	     url('pnthin.woff') format('woff'),
-	     url('pnthin.ttf') format('truetype'),
-	     url('pnthin.svg#webfont') format('svg');
+	src: url('/fonts/pnthin.eot');
+	src: url('/fonts/pnthin.eot?#iefix') format('embedded-opentype'),
+	     url('/fonts/pnthin.woff') format('woff'),
+	     url('/fonts/pnthin.ttf') format('truetype'),
+	     url('/fonts/pnthin.svg#webfont') format('svg');
 }
 
 @font-face{ 
 	font-family: 'pnreg';
-	src: url('pnreg.eot');
-	src: url('pnreg.eot?#iefix') format('embedded-opentype'),
-	     url('pnreg.woff') format('woff'),
-	     url('pnreg.ttf') format('truetype'),
-	     url('pnreg.svg#webfont') format('svg');
+	src: url('/fonts/pnreg.eot');
+	src: url('/fonts/pnreg.eot?#iefix') format('embedded-opentype'),
+	     url('/fonts/pnreg.woff') format('woff'),
+	     url('/fonts/pnreg.ttf') format('truetype'),
+	     url('/fonts/pnreg.svg#webfont') format('svg');
 }
 
 @font-face{ 
 	font-family: 'pnlight';
-	src: url('pnlight.eot');
-	src: url('pnlight.eot?#iefix') format('embedded-opentype'),
-	     url('pnlight.woff') format('woff'),
-	     url('pnlight.ttf') format('truetype'),
-	     url('pnlight.svg#webfont') format('svg');
+	src: url('/fonts/pnlight.eot');
+	src: url('/fonts/pnlight.eot?#iefix') format('embedded-opentype'),
+	     url('/fonts/pnlight.woff') format('woff'),
+	     url('/fonts/pnlight.ttf') format('truetype'),
+	     url('/fonts/pnlight.svg#webfont') format('svg');
 }
 
 @font-face{ 
 	font-family: 'pnbolditalic';
-	src: url('pnbolditalic.eot');
-	src: url('pnbolditalic.eot?#iefix') format('embedded-opentype'),
-	     url('pnbolditalic.woff') format('woff'),
-	     url('pnbolditalic.ttf') format('truetype'),
-	     url('pnbolditalic.svg#webfont') format('svg');
+	src: url('/fonts/pnbolditalic.eot');
+	src: url('/fonts/pnbolditalic.eot?#iefix') format('embedded-opentype'),
+	     url('/fonts/pnbolditalic.woff') format('woff'),
+	     url('/fonts/pnbolditalic.ttf') format('truetype'),
+	     url('/fonts/pnbolditalic.svg#webfont') format('svg');
 }
 
 @font-face{ 
 	font-family: 'baskreg';
-	src: url('baskreg.eot');
-	src: url('baskreg.eot?#iefix') format('embedded-opentype'),
-	     url('baskreg.woff') format('woff'),
-	     url('baskreg.ttf') format('truetype'),
-	     url('baskreg.svg#webfont') format('svg');
+	src: url('/fonts/baskreg.eot');
+	src: url('/fonts/baskreg.eot?#iefix') format('embedded-opentype'),
+	     url('/fonts/baskreg.woff') format('woff'),
+	     url('/fonts/baskreg.ttf') format('truetype'),
+	     url('/fonts/baskreg.svg#webfont') format('svg');
 }
 
 @font-face{ 
 	font-family: 'baskbold';
-	src: url('baskbold.eot');
-	src: url('baskbold.eot?#iefix') format('embedded-opentype'),
-	     url('baskbold.woff') format('woff'),
-	     url('baskbold.ttf') format('truetype'),
-	     url('baskbold.svg#webfont') format('svg');
+	src: url('/fonts/baskbold.eot');
+	src: url('/fonts/baskbold.eot?#iefix') format('embedded-opentype'),
+	     url('/fonts/baskbold.woff') format('woff'),
+	     url('/fonts/baskbold.ttf') format('truetype'),
+	     url('/fonts/baskbold.svg#webfont') format('svg');
 }
 
 h1{
@@ -127,7 +127,7 @@ h3{
 body{
 	width: 100%;
 	height: 100%;
-	background-image: url('header.png');
+	background-image: url('/images/header.png');
 	background-repeat: repeat-y;
 	background-size: 100% 100%;
 	background-attachment: fixed;
@@ -179,7 +179,7 @@ body{
 #upper-header{
 	width:100%;
 	height:150px;
-	background-image:url('logo.png');
+	background-image: url('/images/logo.png');
 	background-repeat:no-repeat;
 	background-position:5% 50%;
 }
@@ -401,6 +401,18 @@ body{
 		margin: 0 0 10px;
 		padding: 0 10px;
 		box-shadow: 1px 1px 1px 0px #777 inset;
+	}
+
+	#email-form .send-mail-button {
+		float: right;
+		font-family: pnthin;
+		font-weight: bold;
+		letter-spacing: .8px;
+		padding: 5px 20px;
+		background: #30aeff;
+		border-radius: 3px;
+		color: #fff;
+		cursor: pointer;
 	}
 
 @media screen and (max-width:900px){
@@ -632,13 +644,13 @@ body{
 	}
 
 	#header {
-		background-image: url('header.png');
+		background-image: url('/images/header.png');
 		background-size: 100% 100%;
 		height: 100%;
 	}
 
 	#services-section {
-		background-image: url('header.png');
+		background-image: url('/images/header.png');
 		background-size: 100% 100%;
 		height: 100%;
 		padding-top: 50px;
